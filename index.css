@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 110% 700px;
+}
+.me {
+    display: flex;
+    height: 180px;
+    border-radius: 100px;
+    margin-top: 100px;
+    margin-left: 575px;
+}
+
+.name {
+    display: flex;
+    font-family:'Montserrat', sans-serif;
+    margin-top: 50px;
+    margin-left: 500px;
+    color: white;
+}
+
+h3{
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 580px;
+    color: white;
+}
+
+.text{
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 380px;
+    color: white;
+}
+
+.column{
+    margin-top: 50px;
+    margin-left: 540px;
+    font-size: 50px;
+    
+}
+
+.fa-facebook{
+    color: #316FF6;
+    margin-right: 10px;
+}
+.fa-facebook:hover{
+    background-color: white;
+    border-radius: 150px;
+}
+
+.fa-linkedin {
+    color: #0077b5; 
+    margin-right: 5px;
+}
+
+.fa-linkedin:hover{
+    background-color: white;
+    height: 44px    ;
+    width: 44px;
+}
+
+.fa-github {
+    color: black; 
+    margin-left: 5px;
+}
+
+.fa-github:hover{
+    background-color: white;
+    border-radius: 150px;
+}
+
+.fa-instagram {
+    color: #e4405f; 
+    margin-left: 10px;
+}
+
+.fa-instagram:hover{
+    border-radius: 10px;
+    height: 46px;
+    
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 570px;
+    border: solid white 3px;
+    border-radius: 70px;
+    width: 140px;
+    padding: 25px;
+}
+
+h4:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 600px;
+    
+    
+}
+.about-me{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    animation-name: about;
+    animation: about  2s ease-in-out;
+}
+
+.project{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    animation-name: about;
+    animation: about  2s ease-in-out;
+}
+
+@keyframes about{
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.login{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 570px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    animation-name: about;
+    animation: about  2s ease-in-out;
+}
+
+.logins{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    animation-name: about;
+    animation: about  2s ease-in-out;
+}
+
+.contact-me{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    animation-name: about;
+    animation: about  2s ease-in-out;
+}
+
+.number{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    animation-name: about;
+    animation: about  2s ease-in-out;
+}
+
+.certificate{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    animation-name: about;
+    animation: about  2s ease-in-out;
+}
+
+.certext{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    animation-name: about;
+    animation: about  2s ease-in-out;
+}
+
+.certification{
+    margin-left: 250px;
+}
+.languange{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    animation-name: about;
+    animation: about  2s ease-in-out;
+}
+.react, .js, .bootstrap{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    animation-name: about;
+    animation: about  2s ease-in-out;
+}
+
+
+
